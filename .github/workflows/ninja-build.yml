@@ -40,7 +40,7 @@ jobs:
         ref: ${{ env.BRANCH_REF }}
 
     - name: Setup host
-      run: ./qt5/ci_scripts/setup.sh
+      run: strip --help
 
     - name: restore ccache
       id: ccache
